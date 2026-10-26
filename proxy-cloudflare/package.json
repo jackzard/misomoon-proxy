@@ -10,10 +10,13 @@
   },
   "cloudflare": {
     "label": "misomoon proxy",
-    "products": ["Workers"],
-    "categories": ["analytics"],
+    "products": [
+      "Workers"
+    ],
     "bindings": {
-      "MISOMOON_URL": { "description": "Where misomoon runs. Keep the default unless you self-host." }
+      "MISOMOON_URL": {
+        "description": "Where misomoon runs. Keep the default unless you self-host."
+      }
     }
   }
 }
